@@ -21,8 +21,8 @@ export default function CreatePage() {
             <span className="text-xl font-bold">MusicMV</span>
           </Link>
           <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-400">20 créditos restantes</span>
-            <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg">Upgrade</button>
+            <span className="text-sm text-green-400">Grátis - Modo Teste</span>
+            <span className="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-xs">Ilimitado</span>
           </div>
         </div>
       </header>
@@ -30,7 +30,7 @@ export default function CreatePage() {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2">Gerador de Músicas com IA</h1>
-          <p className="text-gray-400">Crie uma música completa com vocais IA em segundos</p>
+          <p className="text-gray-400">Crie uma música completa com vocais IA em segundos - Gratuito para testes</p>
         </div>
 
         <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
@@ -119,9 +119,9 @@ export default function CreatePage() {
             <label htmlFor="instrumental" className="text-sm">Apenas instrumental (sem vocais)</label>
           </div>
 
-          <button className="w-full py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg text-lg font-semibold flex items-center justify-center gap-2">
+          <button className="w-full py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 rounded-lg text-lg font-semibold flex items-center justify-center gap-2">
             <Sparkles className="w-5 h-5" />
-            Gerar Música (10 Créditos) • Receba 2 Músicas
+            Gerar Música (Grátis) • Receba 2 Músicas
           </button>
         </div>
 

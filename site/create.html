@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Música - MusicMV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0a0a0a] text-white">
+    <header class="border-b border-gray-800">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2">
+                <svg class="w-8 h-8 text-purple-500" fill="currentColor" viewBox="0 0 20 20"><path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/></svg>
+                <span class="text-xl font-bold">MusicMV</span>
+            </a>
+            <div class="flex items-center gap-4">
+                <span class="text-sm text-green-400">Grátis - Modo Teste</span>
+                <span class="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-xs">Ilimitado</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold mb-2">Gerador de Músicas com IA</h1>
+            <p class="text-gray-400">Crie uma música completa com vocais IA em segundos - Gratuito para testes</p>
+        </div>
+
+        <div class="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
+            <div class="flex gap-2 mb-6 bg-gray-800 p-1 rounded-lg w-fit">
+                <button class="px-4 py-2 rounded-md bg-purple-600">Modo Descrição</button>
+                <button class="px-4 py-2 rounded-md hover:bg-gray-700">Modo Letras</button>
+            </div>
+
+            <div class="space-y-6">
+                <div>
+                    <label class="block text-sm font-medium mb-2">Descrição da Música</label>
+                    <textarea placeholder="Descreva sua música... ex: 'Uma música acústica sobre o amor de verão, animada e alegre com vocais femininos'" class="w-full h-32 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white"></textarea>
+                    <p class="text-xs text-gray-500 mt-1">0/500 caracteres</p>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-2">Tags de Estilo (Opcional)</label>
+                    <input placeholder="ex: pop, acústico, animado, vocal feminino" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white" />
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2 mt-6 mb-6">
+                <input type="checkbox" id="instrumental" class="w-4 h-4" />
+                <label for="instrumental" class="text-sm">Apenas instrumental (sem vocais)</label>
+            </div>
+
+            <button class="w-full py-4 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 rounded-lg text-lg font-semibold flex items-center justify-center gap-2">
+                ✨ Gerar Música (Grátis) • Receba 2 Músicas
+            </button>
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-xl font-semibold mb-4">Dicas Rápidas</h2>
+            <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-400">
+                <div class="p-4 bg-gray-900/30 rounded-lg">
+                    <strong class="text-white">Seja específico:</strong> Inclua gênero, humor, tempo e estilo vocal
+                </div>
+                <div class="p-4 bg-gray-900/30 rounded-lg">
+                    <strong class="text-white">Use marcadores:</strong> Adicione [Verso], [Refrão], [Ponte] no modo letras
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
